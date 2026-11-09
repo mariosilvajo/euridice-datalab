@@ -1,0 +1,85 @@
+---
+/**
+ * Embeds a JupyterLite notebook (running fully in the visitor's browser).
+ * `path` is the notebook filename inside the lab's contents, e.g. "eda-tutorial.ipynb".
+ *
+ * The notebook only loads once datalab-storage has dropped any copy saved by
+ * an older release — otherwise JupyterLite would show that stale copy instead
+ * of the published lesson. A reset button restores the original on demand.
+ */
+interface Props {
+	path: string;
+	height?: string;
+}
+
+const { path, height = '640px' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const src = `${base}/lab/notebooks/index.html?path=${encodeURIComponent(path)}`;
+---
+
+<div class="datalab-lab" data-src={src} data-path={path}>
+	<p class="datalab-notice" hidden>
+		The DataLab's lessons were updated since your last visit, so this notebook now shows the new
+		version. Your saved portfolio is not affected.
+	</p>
+
+	<iframe
+		class="datalab-frame"
+		style={`height: ${height};`}
+		loading="lazy"
+		title={`Interactive notebook: ${path}`}
+		allow="clipboard-read; clipboard-write"></iframe>
+
+	<p class="datalab-frame-hint">
+		The notebook above runs entirely in your browser — nothing is installed and nothing leaves your
+		device. Your changes are kept in this browser. First load takes a few seconds while Python
+		starts.
+	</p>
+	<p class="datalab-actions">
+		<a href={src} target="_blank" rel="noopener">Open it full-screen ↗</a>
+		<button type="button" class="datalab-reset">↺ Reset this notebook</button>
+		<span class="datalab-reset-status" aria-live="polite"></span>
+	</p>
+</div>
+
+<script>
+	import { ready, resetNotebook } from '../scripts/datalab-storage';
+
+	/** Point the frame at `url` and wait (briefly) for it to finish loading. */
+	function load(frame: HTMLIFrameElement, url: string, ms = 4000): Promise<boolean> {
+		return new Promise((resolve) => {
+			const timer = setTimeout(() => resolve(false), ms);
+			frame.addEventListener('load', () => (clearTimeout(timer), resolve(true)), { once: true });
+			frame.src = url;
+		});
+	}
+
+	for (const lab of document.querySelectorAll<HTMLElement>('.datalab-lab')) {
+		const frame = lab.querySelector('iframe')!;
+		const status = lab.querySelector<HTMLElement>('.datalab-reset-status')!;
+		const { src = '', path = '' } = lab.dataset;
+
+		ready.then(({ updated }) => {
+			if (updated) lab.querySelector<HTMLElement>('.datalab-notice')!.hidden = false;
+			frame.src = src;
+		});
+
+		lab.querySelector('.datalab-reset')!.addEventListener('click', async () => {
+			const ok = confirm(
+				'Reset this notebook to the original lesson?\n\nYour edits in this notebook will be ' +
+					'lost. Your saved portfolio is not affected.',
+			);
+			if (!ok) return;
+			status.textContent = 'Resetting…';
+			// Close the open copy first so it cannot re-save itself over the reset.
+			if (!(await load(frame, 'about:blank'))) {
+				status.textContent = 'Reset cancelled.';
+				return;
+			}
+			await resetNotebook(path);
+			frame.src = src;
+			status.textContent = 'Restored to the original.';
+			setTimeout(() => (status.textContent = ''), 5000);
+		});
+	}
+</script>

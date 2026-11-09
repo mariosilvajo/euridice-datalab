@@ -1,0 +1,32 @@
+---
+title: "1 · Explore a real dataset"
+description: The full first-contact EDA workflow - read_csv, describe, missing values, groupby, plots and correlation.
+---
+
+import NotebookLab from '../../../../components/NotebookLab.astro';
+
+This lesson walks the **complete first-contact workflow** every data
+scientist runs on a new dataset: load → inspect → summarise → clean →
+group → visualise → question.
+
+Work through the notebook below cell by cell. Don't just run it — **read
+the outputs**. The skill being trained is noticing things.
+
+<NotebookLab path="eda-tutorial.ipynb" height="760px" />
+
+## Checkpoint
+
+You should now be able to answer, with code:
+
+- How many rows and columns does a dataset have?
+- Which columns have missing values, and what did you do about them?
+- What's the average of a column *per group* (e.g. per country)?
+- Is a correlation positive, negative, or meaningless — and why does
+  correlation ≠ causation?
+- In the ethics lab, only one step of the country ranking was bigger than
+  the margin of error. What headline can this data actually support?
+- Why is a group of about a dozen people a problem *both* for accuracy and
+  for privacy?
+
+**Prove it:** the [graded exercise](/tracks/eda/02-exercise/) asks you six
+questions about this exact dataset — with an instant checker.

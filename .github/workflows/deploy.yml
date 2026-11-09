@@ -1,0 +1,79 @@
+name: Build & deploy EURIDICE DataLab
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python build tools
+        # scikit-learn is needed by make_datasets.py, which asserts the ML
+        # lesson's fairness findings still hold before anything is published.
+        # matplotlib/missingno/seaborn: the notebooks themselves, run by check_notebooks.py
+        # The JupyterLite pins decide which Python learners' browsers run (Pyodide
+        # 314.0.1: Python 3.14, pandas 3.0) — the stack every lesson was verified on.
+        run: pip install jupyterlite-core==0.8.1 jupyterlite-pyodide-kernel==0.8.1 jupyter_server pandas nbformat scikit-learn matplotlib missingno seaborn
+
+      - name: Generate datasets, assets and notebooks
+        run: |
+          python scripts/make_datasets.py
+          python scripts/make_assets.py
+          python scripts/make_notebooks.py
+
+      - name: Check every notebook runs, re-runs and reloads cleanly
+        run: python scripts/check_notebooks.py
+
+      - name: Build JupyterLite lab
+        run: jupyter lite build --lite-dir lab --output-dir site/public/lab
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      # Reads the repo's Pages address: https://<owner>.github.io/<repo>, or the
+      # custom domain once one is connected (then base_path is empty = site root).
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        working-directory: site
+        env:
+          ASTRO_SITE: ${{ steps.pages.outputs.origin }}
+          ASTRO_BASE: ${{ steps.pages.outputs.base_path }}
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,52 @@
+---
+title: EURIDICE DataLab
+description: Learn data science by doing — real Python, real datasets, instant feedback, entirely in your browser. Built by IIIM for the EURIDICE project.
+template: splash
+hero:
+  title: Learn data science by doing
+  tagline: Real Python. Real datasets. Instant feedback. Entirely in your browser — no installation, no account, no server.
+  # Relative on purpose: hero links don't get the site's `base` added, and this
+  # page is the site root, so these work at a domain root and under a sub-folder.
+  actions:
+    - text: Start learning
+      link: getting-started/
+      icon: right-arrow
+      variant: primary
+    - text: Open the Playground
+      link: playground/
+      icon: rocket
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Why the DataLab?
+
+<CardGrid stagger>
+	<Card title="Run real code, instantly" icon="rocket">
+		Every lesson contains a live Jupyter notebook. Click, type, run — pandas,
+		matplotlib and scikit-learn are ready the moment the page loads.
+	</Card>
+	<Card title="Instant feedback" icon="approve-check">
+		Graded exercises check your answers on the spot and give hints when you are
+		stuck — learn by trying, not by watching.
+	</Card>
+	<Card title="Nothing to install" icon="laptop">
+		Python runs inside your browser. No downloads, no environments, no admin
+		rights, no account. Works on any laptop — in a library, a classroom, anywhere.
+	</Card>
+	<Card title="A path to credentials" icon="open-book">
+		The tracks build toward EURIDICE microcredentials aligned with the European
+		Approach to Microcredentials and ECTS workload standards.
+	</Card>
+</CardGrid>
+
+## Three learning tracks
+
+1. **Python & Data Foundations** — never coded before? Start here.
+2. **Exploratory Data Analysis** — load, clean, summarise and visualise real data.
+3. **Machine Learning Fundamentals** — train and evaluate your first model, and learn why ethics is part of the job.
+
+*An open learning environment by [IIIM](https://www.iiim.is) for the
+[EURIDICE](https://euridice.eu) project — European Inclusive Education for
+Digital Society, Social Innovation and Global Citizenship.*

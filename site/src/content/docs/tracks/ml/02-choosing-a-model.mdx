@@ -1,0 +1,34 @@
+---
+title: "2 · Overfitting, and choosing a model"
+description: See overfitting happen, choose a model with cross-validation - and find out whether a better model is a fairer one.
+---
+
+import NotebookLab from '../../../../components/NotebookLab.astro';
+
+In Lesson 1 you trained one model and took its score at face value. This
+lesson asks the two questions a professional asks next: **how complex should
+a model be**, and **which model should you deploy?**
+
+You will watch a decision tree reach a perfect score on its training data
+and then do *worse than guessing* on new learners. You will use
+cross-validation to choose a model without peeking at the test set. Then the
+ethics lab compares five models on fairness — and the answer to "does a
+better model treat people more fairly?" is not the one you expect.
+
+> ⏳ *The model-comparison cell trains a 100-tree random forest, so it takes
+> a few seconds in the browser.*
+
+<NotebookLab path="choosing-a-model.ipynb" height="760px" />
+
+## Checkpoint
+
+- What does it look like when a model **overfits** — and why did the
+  unlimited tree score worse than always predicting "pass"?
+- Why must the **test set** play no part in choosing your model?
+- Three models were within about a point of each other on accuracy. Were
+  they also tied on fairness?
+- For learners without a laptop, how did every trained model compare with
+  simply predicting "pass" for everyone? What does that tell you?
+- The EU AI Act asks for an "appropriate level of accuracy". Whose accuracy?
+
+**Next:** [Capstone: audit and document a model](/tracks/ml/03-capstone/).

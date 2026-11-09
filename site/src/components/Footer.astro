@@ -1,0 +1,28 @@
+---
+import Default from '@astrojs/starlight/components/Footer.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Default><slot /></Default>
+
+<script>
+	// Run the lesson-release check on every page (Playground included), not
+	// only on lesson pages, so a stale notebook copy is gone before it opens.
+	import '../scripts/datalab-storage';
+</script>
+
+<div class="eu-funding">
+	<img src={`${base}/eu-cofunded.svg`} alt="Co-funded by the European Union" width="132" />
+	<p>
+		Co-funded by the European Union under the Digital Europe Programme — project
+		<strong>EURIDICE</strong>, Grant Agreement No. 101123121. Views and opinions expressed are
+		those of the author(s) only and do not necessarily reflect those of the European Union or the
+		European Commission. Neither the European Union nor the granting authority can be held
+		responsible for them.
+		<br />
+		Built by <a href="https://www.iiim.is">IIIM — Icelandic Institute for Intelligent Machines</a>.
+		Learning materials are licensed
+		<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+	</p>
+</div>

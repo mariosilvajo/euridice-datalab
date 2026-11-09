@@ -1,0 +1,42 @@
+---
+title: "3 · Seeing what's missing"
+description: Use missingno to make missing data visible, tell MCAR from MNAR, and measure how gaps distort a finding.
+---
+
+import NotebookLab from '../../../../components/NotebookLab.astro';
+
+Every real dataset has holes. The dangerous mistake is treating them as a
+nuisance to delete — because **the pattern of what's missing is itself
+data**. Who refused to answer, and why, can matter more than the answers you
+received.
+
+You'll use **[missingno](https://github.com/ResidentMario/missingno)**, a
+library built for one job: making missing data visible. Its matrix, heatmap
+and dendrogram turn invisible gaps into obvious patterns — and in this
+dataset they reveal a specific kind of person: the respondent who guards
+their financial privacy and skips *both* money questions.
+
+Then comes the part no real survey can do. Because our data is synthetic, we
+can compare what the survey **reports** against what was **true** — and
+measure exactly how badly the refusals distort the headline finding.
+
+<NotebookLab path="missing-data.ipynb" height="760px" />
+
+## Checkpoint
+
+- What's the difference between **MCAR**, **MAR** and **MNAR** — and which
+  one can't be fixed with statistics?
+- The missingness heatmap showed two columns disappearing together at ~0.75.
+  What kind of *person* does that pattern describe?
+- The survey under-counted media distrust by roughly a third. Nothing was
+  coded wrong — so what went wrong?
+- `dropna()` deleted 32% of respondents. Who, specifically, did it delete?
+
+## The takeaway
+
+`dropna()` is an **ethical decision**, not housekeeping. The professional
+habit is simple: look at missingness *before* you analyse, and always tell
+your reader what was missing.
+
+**Next:** [Track 2 — Explore a real dataset](/tracks/eda/01-explore-a-dataset/),
+where you put all of this to work.

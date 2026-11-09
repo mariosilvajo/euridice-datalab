@@ -1,0 +1,64 @@
+---
+title: How the DataLab works
+description: The serverless architecture behind the EURIDICE DataLab — for partners, hosts and the curious.
+---
+
+The DataLab looks like a full learning platform, but it runs on **almost no
+infrastructure** — by design. This page explains how, for EURIDICE partners
+and anyone who wants to host or extend it.
+
+## The architecture in one paragraph
+
+The whole product is a **static website**: HTML, JavaScript, CSS, notebooks
+and CSV files. The Python that learners run is executed **inside their own
+browser** by [Pyodide](https://pyodide.org) (CPython compiled to
+WebAssembly), packaged as [JupyterLite](https://jupyterlite.readthedocs.io).
+There is no compute server, no database, no user accounts — the learner's
+laptop does the computing.
+
+## What that buys us
+
+- **Cost ≈ €0.** Hosting static files is free (GitHub Pages, Netlify, any
+  university web server). Ten learners or ten thousand — same cost, because
+  their machines do the work.
+- **Privacy by default.** Nothing a learner types leaves their device. No
+  accounts, no tracking, nothing for GDPR to worry about beyond ordinary
+  web-server logs.
+- **Zero maintenance.** No servers to patch, no kernels to restart, no
+  capacity planning.
+- **Trivial handover.** "Hosting the DataLab" means serving a folder of
+  files. Any EURIDICE partner can mirror it.
+
+## What runs where
+
+| Capability | Where it runs | Backend needed? |
+|---|---|---|
+| Lessons, navigation, downloads | Static site (Astro Starlight) | No |
+| Notebooks: pandas, matplotlib, scikit-learn | Learner's browser (Pyodide/WASM) | No |
+| Auto-checked exercises with hints | Learner's browser | No |
+| Saving work | Learner's browser storage + file download | No |
+| Portfolio export (judgments + model card) | Learner's browser — built as one downloadable file | No |
+| **Official assessment & microcredential issuance** | Moodle at a partner university | **Yes — by design** |
+
+The last row is deliberate: the DataLab handles *learning* serverlessly, and
+plugs into EURIDICE's existing **Moodle-in-the-loop** for the part that
+genuinely needs identity and record-keeping — graded submissions and
+credential issuance. See [Earning a microcredential](/credentials/).
+
+## Honest limitations
+
+- **First load** downloads the Python runtime (~10–20 MB); slow connections
+  feel it once, then it's cached.
+- **Browser Python is CPU-only** and slower than native — perfect for
+  learning-scale data (thousands of rows), not for training deep neural
+  networks on gigabytes.
+- **No shared leaderboard** without a backend. If EURIDICE wants
+  competitions later, that's a Moodle plugin or a small service — the site
+  doesn't need to change.
+
+## The stack
+
+[Astro Starlight](https://starlight.astro.build) (site) ·
+[JupyterLite](https://jupyterlite.readthedocs.io) + Pyodide (in-browser
+Python) · synthetic teaching datasets generated with seeded scripts ·
+deployable to any static host.

@@ -1,0 +1,79 @@
+/* EURIDICE DataLab theme — EU blue with a teal data accent. */
+
+:root {
+	--sl-color-accent-low: #d8e2ff;
+	--sl-color-accent: #1d3fbf;
+	--sl-color-accent-high: #142c85;
+	--eu-blue: #003399;
+	--eu-gold: #ffcc00;
+}
+
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #16255c;
+	--sl-color-accent: #6b8cff;
+	--sl-color-accent-high: #c3d1ff;
+}
+
+/* Notebook embeds */
+.datalab-frame {
+	width: 100%;
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 0.5rem;
+	background: var(--sl-color-bg);
+}
+
+.datalab-frame-hint,
+.datalab-actions {
+	font-size: 0.8rem;
+	color: var(--sl-color-gray-3);
+	margin-top: 0.5rem;
+}
+
+.datalab-actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.4rem 1rem;
+}
+
+.datalab-reset {
+	font: inherit;
+	color: var(--sl-color-text-accent);
+	background: none;
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 0.4rem;
+	padding: 0.15rem 0.6rem;
+	cursor: pointer;
+}
+
+.datalab-reset:hover {
+	border-color: var(--sl-color-text-accent);
+}
+
+.datalab-notice {
+	font-size: 0.85rem;
+	padding: 0.6rem 0.9rem;
+	border-left: 3px solid var(--sl-color-accent);
+	background: var(--sl-color-accent-low);
+	border-radius: 0.3rem;
+}
+
+/* EU funding banner in the footer */
+.eu-funding {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	margin-top: 2rem;
+	padding: 1rem;
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 0.5rem;
+	font-size: 0.8rem;
+	line-height: 1.5;
+	color: var(--sl-color-gray-3);
+}
+
+.eu-funding img {
+	flex-shrink: 0;
+	width: 132px;
+	height: auto;
+}

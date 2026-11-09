@@ -1,0 +1,13 @@
+{
+  "version": "74dbde84ed943807",
+  "notebooks": [
+    "capstone.ipynb",
+    "choosing-a-model.ipynb",
+    "choosing-charts.ipynb",
+    "eda-exercise.ipynb",
+    "eda-tutorial.ipynb",
+    "first-classifier.ipynb",
+    "missing-data.ipynb",
+    "welcome.ipynb"
+  ]
+}

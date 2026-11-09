@@ -1,0 +1,53 @@
+---
+title: "1 · Train your first classifier"
+description: Features, train/test split, decision trees, confusion matrices - and the ethics moment.
+---
+
+import NotebookLab from '../../../../components/NotebookLab.astro';
+
+Machine learning sounds like magic until you've done it once. In the next
+hour you will: frame a prediction problem, train a real model on 900
+learners' data, test it on learners it has never seen — and then, in the
+**ethics lab**, *measure* whether your model treats disadvantaged learners
+fairly, and make the call professionals must always make: *should this
+model be used?*
+
+You will build the model the careful way — deliberately **withholding** the
+sensitive attribute so it cannot discriminate. Then you will audit it and
+discover that this standard precaution did not work, and why.
+
+> ⏳ *The scikit-learn import takes a few extra seconds on first run — it's
+> a big library arriving in your browser.*
+
+<NotebookLab path="first-classifier.ipynb" height="760px" />
+
+## Checkpoint
+
+- Why must the test set stay unseen during training?
+- Your accuracy was ~66% — what would a *useless* baseline score? (Always
+  predicting "passed" scores about 61%, so how much is the model adding?)
+- The model **never saw** `has_own_laptop` and still failed that group badly.
+  Explain to a colleague why removing a sensitive column doesn't create
+  fairness.
+- It **passed** the four-fifths rule yet was wrong about nearly half the
+  no-laptop learners. Why were both checks necessary?
+- The four-fifths rule is a **US** standard and EU law sets no threshold at
+  all. So who decides what counts as too unfair here — and on what basis?
+- What did you write in your `reflect_submit` judgment — deploy, or not?
+
+## Where this leads
+
+The ethics lab is the DataLab's signature pattern: **build it → measure it
+→ name it → judge it**. You didn't just hear that models can discriminate —
+you measured *your own model* doing it, connected the finding to the EU AI
+Act, and put your judgment in writing. That judgment is saved to your
+DataLab **portfolio**, which the [capstone](/tracks/ml/03-capstone/) exports
+as one file you can submit for a EURIDICE microcredential.
+
+EURIDICE's dedicated *AI Ethics & Digital Humanism* course goes deeper on
+all of it — bias, fairness metrics and their trade-offs, accountability,
+and the EU AI Act. Technical skill and ethical judgment are one competence,
+not two.
+
+**Next:** [Overfitting, and choosing a model](/tracks/ml/02-choosing-a-model/)
+— is a better model a fairer one?

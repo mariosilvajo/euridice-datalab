@@ -1,0 +1,625 @@
+respondent_id,country,age,gender,household_income_band,hours_tv,hours_social,hours_news,main_news_source,trust_news,pays_for_news
+1000,Iceland,45,male,40-60k,3.2,1.4,1.3,print,6.0,yes
+1001,Iceland,28,male,20-40k,2.7,3.1,0.8,social media,7.0,yes
+1002,Iceland,54,female,40-60k,2.7,2.1,0.8,radio,8.0,no
+1003,Iceland,46,female,20-40k,3.0,2.4,1.8,online news,6.0,yes
+1004,Iceland,39,female,40-60k,1.6,1.5,1.2,radio,8.0,no
+1005,Iceland,44,male,under 20k,2.7,2.2,1.3,online news,7.0,no
+1006,Iceland,19,female,40-60k,1.3,2.7,0.4,social media,6.0,no
+1007,Iceland,35,female,20-40k,2.8,2.2,1.1,social media,8.0,no
+1008,Iceland,21,male,20-40k,1.0,2.0,0.9,online news,7.0,no
+1009,Iceland,36,female,20-40k,1.7,2.4,0.7,TV,6.0,no
+1010,Iceland,48,female,20-40k,3.2,2.4,0.9,TV,6.0,yes
+1011,Iceland,26,female,40-60k,1.2,2.8,0.6,TV,8.0,no
+1012,Iceland,26,male,under 20k,2.7,2.3,0.1,online news,7.0,no
+1013,Iceland,33,female,20-40k,2.2,2.4,1.5,social media,7.0,
+1014,Iceland,53,female,40-60k,4.1,2.3,0.6,print,6.0,no
+1015,Iceland,37,male,20-40k,1.4,1.1,1.0,TV,9.0,no
+1016,Iceland,16,male,40-60k,0.9,3.2,0.5,social media,6.0,yes
+1017,Iceland,25,male,under 20k,1.5,1.4,0.7,TV,9.0,yes
+1018,Iceland,26,female,over 60k,3.9,2.0,0.4,social media,8.0,no
+1019,Iceland,40,male,over 60k,2.8,1.6,0.7,print,6.0,no
+1020,Iceland,39,male,under 20k,3.5,2.3,1.0,online news,6.0,yes
+1021,Iceland,22,male,40-60k,3.3,1.8,1.4,social media,7.0,yes
+1022,Iceland,27,female,20-40k,1.7,3.0,0.8,social media,6.0,no
+1023,Iceland,16,male,40-60k,0.9,3.0,0.2,TV,6.0,yes
+1024,Iceland,33,female,over 60k,3.1,2.0,1.0,online news,8.0,no
+1025,Iceland,43,male,,2.6,1.3,1.0,TV,10.0,
+1026,Iceland,32,male,20-40k,3.2,2.5,0.5,online news,6.0,no
+1027,Iceland,74,female,20-40k,2.6,1.7,1.2,online news,6.0,no
+1028,Iceland,68,female,20-40k,2.2,4.1,1.0,radio,6.0,
+1029,Iceland,47,female,under 20k,2.5,1.8,0.4,social media,7.0,no
+1030,Iceland,56,female,under 20k,3.2,2.2,1.1,radio,7.0,yes
+1031,Iceland,72,male,under 20k,3.7,3.2,0.9,radio,5.0,yes
+1032,Iceland,54,female,40-60k,1.8,2.4,0.9,TV,7.0,no
+1033,Iceland,43,female,under 20k,0.2,3.1,0.8,online news,6.0,no
+1034,Iceland,66,male,20-40k,4.0,1.0,1.0,TV,8.0,no
+1035,Iceland,66,male,20-40k,3.6,2.9,1.9,TV,7.0,no
+1036,Iceland,55,female,,3.6,1.3,1.0,social media,9.0,no
+1037,Iceland,39,female,over 60k,1.9,1.3,1.5,TV,8.0,no
+1038,Iceland,30,male,40-60k,3.1,2.6,1.0,TV,4.0,no
+1039,Iceland,16,male,20-40k,2.2,2.6,0.0,online news,8.0,no
+1040,Iceland,57,female,under 20k,3.1,2.3,1.2,online news,6.0,no
+1041,Iceland,25,female,20-40k,3.3,2.5,0.5,TV,6.0,no
+1042,Iceland,53,male,40-60k,3.3,2.7,2.0,social media,6.0,yes
+1043,Iceland,60,male,,1.9,1.0,0.5,online news,7.0,
+1044,Iceland,16,male,40-60k,1.3,3.1,0.8,print,7.0,yes
+1045,Iceland,44,male,over 60k,1.9,2.5,0.9,online news,7.0,yes
+1046,Iceland,39,male,under 20k,0.6,2.7,0.4,radio,5.0,no
+1047,Iceland,43,female,over 60k,3.7,2.9,0.9,TV,8.0,no
+1048,Iceland,27,female,,2.7,2.2,1.5,social media,,
+1049,Iceland,16,male,,1.1,3.7,0.4,social media,5.0,no
+1050,Iceland,46,female,,2.3,3.0,0.4,TV,7.0,
+1051,Iceland,46,male,,4.4,3.5,1.0,online news,6.0,
+1052,Iceland,45,female,20-40k,1.1,1.5,0.1,social media,6.0,yes
+1053,Iceland,26,male,40-60k,1.6,2.8,0.6,social media,7.0,no
+1054,Iceland,41,male,20-40k,2.6,3.9,1.5,print,6.0,no
+1055,Iceland,47,female,20-40k,3.2,1.5,1.4,online news,8.0,no
+1056,Iceland,16,female,40-60k,0.0,2.8,0.1,social media,8.0,no
+1057,Iceland,32,male,20-40k,2.6,3.9,0.6,TV,6.0,yes
+1058,Iceland,52,male,20-40k,3.4,2.3,0.7,print,8.0,no
+1059,Iceland,38,female,20-40k,,3.1,1.5,online news,6.0,yes
+1060,Iceland,34,female,20-40k,0.8,2.5,1.1,TV,6.0,yes
+1061,Iceland,28,male,20-40k,1.9,2.6,0.7,social media,7.0,no
+1062,Iceland,46,male,40-60k,2.8,2.5,1.8,radio,7.0,no
+1063,Iceland,27,female,under 20k,2.3,2.5,0.8,social media,6.0,no
+1064,Iceland,49,other,40-60k,1.4,2.2,1.0,TV,7.0,no
+1065,Iceland,59,female,over 60k,3.3,1.9,0.1,TV,6.0,no
+1066,Iceland,23,male,40-60k,2.1,2.1,1.4,social media,6.0,no
+1067,Iceland,16,female,over 60k,1.3,2.2,0.5,online news,8.0,no
+1068,Iceland,60,female,,2.4,1.7,1.3,social media,8.0,
+1069,Iceland,44,female,under 20k,2.9,1.1,0.6,TV,6.0,no
+1070,Iceland,34,male,over 60k,2.5,2.2,0.6,online news,7.0,yes
+1071,Iceland,16,male,,4.0,4.2,0.5,social media,,yes
+1072,Iceland,49,female,20-40k,1.3,2.5,1.3,online news,9.0,no
+1073,Iceland,16,female,,1.3,3.2,1.4,social media,6.0,
+1074,Iceland,27,female,20-40k,3.1,2.6,0.6,online news,,no
+1075,Iceland,16,female,40-60k,2.1,1.9,0.5,online news,,yes
+1076,Iceland,53,female,20-40k,4.9,2.3,1.2,TV,7.0,no
+1077,Iceland,33,male,over 60k,1.8,1.9,1.1,TV,9.0,no
+1078,Austria,55,male,20-40k,2.1,0.3,0.7,social media,,no
+1079,Austria,37,female,,2.3,1.2,1.3,online news,6.0,no
+1080,Austria,40,female,20-40k,1.5,2.4,0.9,TV,6.0,no
+1081,Austria,25,female,20-40k,3.0,2.3,0.0,online news,5.0,no
+1082,Austria,23,female,over 60k,2.3,1.7,0.8,social media,7.0,yes
+1083,Austria,53,female,over 60k,0.8,0.8,1.4,TV,9.0,no
+1084,Austria,67,male,20-40k,,2.3,0.8,radio,6.0,no
+1085,Austria,58,female,,3.7,1.3,1.3,online news,7.0,yes
+1086,Austria,46,female,40-60k,2.7,0.7,0.7,TV,6.0,no
+1087,Austria,61,female,over 60k,3.2,1.9,0.7,TV,,yes
+1088,Austria,67,female,,3.2,2.5,1.3,TV,6.0,
+1089,Austria,22,male,20-40k,2.2,2.9,0.0,online news,6.0,yes
+1090,Austria,28,other,40-60k,2.4,1.5,0.9,online news,8.0,no
+1091,Austria,44,female,,2.0,1.8,1.0,social media,6.0,no
+1092,Austria,45,male,40-60k,2.1,1.1,1.5,online news,6.0,no
+1093,Austria,39,male,,0.0,2.7,1.0,social media,8.0,
+1094,Austria,36,male,,3.9,2.9,0.7,online news,8.0,
+1095,Austria,46,female,20-40k,3.3,4.1,0.7,print,,no
+1096,Austria,45,female,20-40k,2.9,1.9,1.1,print,5.0,no
+1097,Austria,42,female,,3.2,1.4,0.4,online news,6.0,
+1098,Austria,51,male,40-60k,1.0,1.9,0.2,online news,7.0,no
+1099,Austria,55,female,20-40k,1.8,1.1,0.6,online news,7.0,no
+1100,Austria,28,male,40-60k,1.7,1.9,0.8,TV,6.0,no
+1101,Austria,17,male,under 20k,1.8,3.1,0.6,radio,7.0,yes
+1102,Austria,42,male,40-60k,1.8,1.1,1.1,online news,8.0,no
+1103,Austria,26,male,,3.2,2.7,0.0,radio,6.0,no
+1104,Austria,69,female,,3.6,1.8,1.1,social media,7.0,no
+1105,Austria,45,female,over 60k,1.5,2.3,0.9,social media,7.0,no
+1106,Austria,59,female,40-60k,2.6,2.1,1.2,TV,3.0,yes
+1107,Austria,48,male,40-60k,2.0,1.1,1.5,TV,7.0,yes
+1108,Austria,42,female,under 20k,2.4,1.2,0.9,online news,6.0,yes
+1109,Austria,36,male,20-40k,2.5,1.8,1.1,TV,,no
+1110,Austria,47,female,under 20k,1.2,2.2,1.1,radio,,no
+1111,Austria,36,male,20-40k,3.1,1.6,1.5,TV,9.0,no
+1112,Austria,42,female,20-40k,3.2,2.0,0.9,online news,6.0,yes
+1113,Austria,51,male,40-60k,3.4,1.6,1.2,online news,6.0,yes
+1114,Austria,25,female,over 60k,1.7,2.4,0.6,online news,7.0,no
+1115,Austria,16,female,over 60k,0.0,2.6,0.7,social media,6.0,
+1116,Austria,48,female,over 60k,2.6,1.5,1.4,print,6.0,no
+1117,Austria,51,male,over 60k,2.0,2.0,0.7,print,,no
+1118,Austria,37,female,20-40k,4.5,2.0,0.3,TV,8.0,no
+1119,Austria,38,male,20-40k,1.9,2.9,1.3,social media,5.0,no
+1120,Austria,39,female,under 20k,1.4,1.8,0.8,online news,5.0,no
+1121,Austria,32,male,,2.4,3.1,0.8,online news,6.0,
+1122,Austria,17,other,,1.5,3.3,0.4,online news,6.0,no
+1123,Austria,39,female,20-40k,2.8,3.0,1.3,online news,7.0,no
+1124,Austria,24,male,,0.7,2.9,0.4,social media,7.0,
+1125,Austria,37,female,under 20k,2.4,2.0,1.3,TV,6.0,yes
+1126,Austria,29,male,under 20k,1.9,2.0,0.7,social media,8.0,no
+1127,Austria,37,male,40-60k,3.6,1.4,0.8,online news,8.0,no
+1128,Austria,66,female,under 20k,1.4,0.3,0.9,social media,8.0,yes
+1129,Austria,56,male,20-40k,3.7,2.0,1.2,online news,6.0,no
+1130,Austria,16,male,40-60k,0.6,1.9,0.5,online news,6.0,no
+1131,Austria,68,male,20-40k,2.9,1.6,0.7,online news,5.0,no
+1132,Austria,29,female,40-60k,2.4,2.3,1.0,online news,5.0,yes
+1133,Austria,20,male,20-40k,2.1,2.4,0.9,online news,6.0,yes
+1134,Austria,70,female,under 20k,2.2,3.3,0.8,social media,7.0,yes
+1135,Austria,39,male,20-40k,1.8,1.4,0.6,online news,6.0,yes
+1136,Austria,38,male,under 20k,0.0,1.4,0.3,TV,,no
+1137,Austria,60,male,,3.7,2.2,0.7,online news,7.0,no
+1138,Austria,32,female,under 20k,1.1,1.3,0.9,TV,7.0,yes
+1139,Austria,64,male,,2.2,2.8,1.8,online news,5.0,
+1140,Austria,38,female,20-40k,3.2,0.8,1.5,TV,7.0,no
+1141,Austria,40,male,40-60k,2.0,3.1,1.3,online news,6.0,yes
+1142,Austria,28,male,20-40k,2.6,2.7,1.0,radio,8.0,no
+1143,Austria,41,male,over 60k,3.9,1.5,1.1,TV,7.0,no
+1144,Austria,41,female,20-40k,1.2,2.1,0.9,TV,8.0,no
+1145,Austria,16,male,40-60k,2.4,3.0,0.0,social media,,no
+1146,Austria,16,female,20-40k,2.4,3.3,0.6,online news,3.0,no
+1147,Austria,23,male,under 20k,1.3,3.1,0.9,TV,6.0,no
+1148,Austria,58,male,20-40k,2.4,1.4,1.1,social media,,yes
+1149,Austria,39,male,40-60k,0.7,2.4,0.5,online news,7.0,yes
+1150,Austria,50,other,20-40k,2.5,3.8,0.7,social media,6.0,no
+1151,Austria,45,female,40-60k,3.4,1.4,0.9,print,7.0,yes
+1152,Austria,69,female,20-40k,2.9,2.2,1.0,online news,6.0,no
+1153,Austria,53,male,40-60k,3.1,1.6,0.6,radio,8.0,no
+1154,Austria,47,male,over 60k,2.6,0.8,1.1,TV,8.0,no
+1155,Austria,16,male,under 20k,1.5,2.6,0.0,social media,6.0,no
+1156,Germany,30,male,under 20k,1.6,3.0,1.0,print,4.0,no
+1157,Germany,19,male,40-60k,1.5,3.3,0.6,social media,5.0,no
+1158,Germany,40,female,20-40k,2.0,2.1,1.8,print,5.0,yes
+1159,Germany,55,male,20-40k,2.9,2.4,1.0,online news,,no
+1160,Germany,53,male,,3.4,2.3,1.3,online news,,
+1161,Germany,39,male,under 20k,,1.4,0.4,online news,8.0,yes
+1162,Germany,38,male,under 20k,4.4,1.9,1.5,online news,6.0,no
+1163,Germany,35,male,40-60k,2.1,2.7,1.8,online news,6.0,no
+1164,Germany,28,male,,2.9,2.4,0.8,social media,5.0,yes
+1165,Germany,57,female,,0.9,1.7,1.0,social media,6.0,yes
+1166,Germany,47,female,,2.7,2.1,1.1,social media,7.0,
+1167,Germany,43,male,20-40k,2.5,1.3,0.7,social media,6.0,no
+1168,Germany,51,female,20-40k,2.2,0.9,0.8,social media,8.0,yes
+1169,Germany,40,female,20-40k,2.5,3.1,0.9,online news,6.0,no
+1170,Germany,30,male,,,2.9,0.0,TV,4.0,
+1171,Germany,57,male,40-60k,2.8,2.5,0.2,online news,7.0,no
+1172,Germany,71,female,over 60k,4.0,1.0,0.5,radio,6.0,no
+1173,Germany,39,female,under 20k,2.2,2.7,0.2,online news,,yes
+1174,Germany,32,female,40-60k,0.9,1.6,0.6,social media,6.0,no
+1175,Germany,43,female,20-40k,1.5,1.1,0.6,print,6.0,no
+1176,Germany,41,male,under 20k,2.7,1.5,0.9,online news,5.0,no
+1177,Germany,46,female,40-60k,2.4,2.5,1.2,online news,5.0,yes
+1178,Germany,26,female,over 60k,0.7,1.8,0.2,online news,6.0,no
+1179,Germany,44,female,under 20k,1.6,2.8,0.9,online news,7.0,no
+1180,Germany,48,female,20-40k,2.4,1.8,0.8,online news,,no
+1181,Germany,48,male,40-60k,1.0,3.7,1.1,social media,4.0,yes
+1182,Germany,43,male,,0.4,2.5,1.6,radio,6.0,
+1183,Germany,40,male,20-40k,3.4,1.9,0.2,radio,7.0,no
+1184,Germany,16,male,20-40k,0.3,3.1,0.7,online news,5.0,no
+1185,Germany,60,male,,2.7,2.1,1.0,TV,5.0,
+1186,Germany,76,male,20-40k,3.4,0.9,2.0,social media,8.0,no
+1187,Germany,30,male,20-40k,0.7,1.9,0.9,TV,7.0,no
+1188,Germany,30,female,under 20k,0.7,1.8,0.4,TV,6.0,no
+1189,Germany,44,male,40-60k,3.3,1.6,0.7,radio,5.0,yes
+1190,Germany,47,male,40-60k,4.7,1.4,0.3,print,,no
+1191,Germany,44,female,40-60k,2.1,3.0,1.0,radio,7.0,no
+1192,Germany,39,female,under 20k,2.5,1.0,0.7,social media,,yes
+1193,Germany,31,male,,3.1,3.2,0.8,TV,4.0,
+1194,Germany,40,male,under 20k,1.1,1.5,0.7,online news,8.0,yes
+1195,Germany,35,male,under 20k,2.7,2.7,0.3,radio,6.0,no
+1196,Germany,54,male,20-40k,2.3,1.2,0.8,online news,6.0,no
+1197,Germany,25,female,20-40k,0.9,2.2,0.4,social media,6.0,yes
+1198,Germany,53,male,20-40k,5.3,1.1,0.8,online news,7.0,no
+1199,Germany,20,male,20-40k,0.8,2.6,1.3,online news,7.0,no
+1200,Germany,59,female,,1.5,2.5,1.2,social media,7.0,
+1201,Germany,16,female,40-60k,1.4,2.4,0.6,social media,5.0,no
+1202,Germany,34,other,over 60k,0.5,1.8,1.0,TV,6.0,yes
+1203,Germany,45,male,20-40k,,1.7,0.8,print,7.0,no
+1204,Germany,52,other,,3.3,2.6,0.7,online news,7.0,
+1205,Germany,52,female,40-60k,1.8,1.7,1.2,TV,7.0,no
+1206,Germany,27,male,20-40k,2.0,1.7,1.1,social media,5.0,no
+1207,Germany,35,male,under 20k,1.7,2.2,0.9,social media,,yes
+1208,Germany,56,male,40-60k,1.6,2.0,1.3,social media,,yes
+1209,Germany,37,male,40-60k,2.0,2.2,1.0,TV,7.0,no
+1210,Germany,16,male,20-40k,,3.2,1.2,social media,4.0,yes
+1211,Germany,16,female,under 20k,0.7,2.8,0.7,online news,,no
+1212,Germany,16,male,40-60k,1.2,2.5,0.0,social media,,yes
+1213,Germany,50,male,over 60k,3.3,1.6,0.5,TV,7.0,no
+1214,Germany,48,female,40-60k,0.0,2.1,1.5,online news,,no
+1215,Germany,24,male,over 60k,0.2,3.0,1.2,social media,6.0,no
+1216,Germany,51,female,over 60k,2.4,0.5,0.7,online news,9.0,no
+1217,Germany,30,female,under 20k,1.0,1.4,0.8,print,5.0,no
+1218,Germany,27,male,over 60k,3.8,1.5,0.8,social media,,no
+1219,Germany,54,female,under 20k,2.6,0.9,0.8,TV,7.0,no
+1220,Germany,48,female,20-40k,2.6,1.9,0.8,TV,7.0,no
+1221,Germany,20,male,20-40k,0.1,3.0,0.8,social media,7.0,no
+1222,Germany,37,male,under 20k,2.0,1.1,0.9,online news,6.0,no
+1223,Germany,44,other,over 60k,2.6,2.4,1.1,TV,6.0,yes
+1224,Germany,31,male,20-40k,2.4,2.2,0.2,social media,7.0,no
+1225,Germany,22,female,20-40k,2.5,3.6,0.7,social media,7.0,no
+1226,Germany,48,female,20-40k,1.9,1.7,1.0,radio,6.0,no
+1227,Germany,44,female,20-40k,3.7,1.4,0.7,social media,7.0,no
+1228,Germany,55,female,20-40k,3.1,1.0,1.4,TV,8.0,no
+1229,Germany,50,female,under 20k,2.8,2.0,0.6,TV,7.0,no
+1230,Germany,41,female,,,2.1,0.2,TV,6.0,yes
+1231,Germany,46,female,20-40k,2.4,1.5,1.3,print,,yes
+1232,Germany,16,female,20-40k,1.7,2.5,0.1,social media,6.0,yes
+1233,Germany,46,female,20-40k,2.7,0.9,1.4,TV,8.0,no
+1234,Denmark,43,male,20-40k,2.6,2.4,1.3,TV,7.0,yes
+1235,Denmark,64,male,40-60k,1.6,2.2,0.9,TV,8.0,no
+1236,Denmark,29,female,,2.4,2.4,1.0,social media,8.0,no
+1237,Denmark,42,male,,3.2,2.2,1.1,online news,7.0,
+1238,Denmark,74,male,40-60k,3.8,1.6,1.7,print,8.0,no
+1239,Denmark,35,female,over 60k,3.0,2.2,1.0,online news,8.0,no
+1240,Denmark,30,male,20-40k,1.3,1.8,1.2,TV,7.0,yes
+1241,Denmark,24,female,20-40k,2.5,2.7,0.9,online news,6.0,yes
+1242,Denmark,60,female,over 60k,3.5,2.4,1.6,print,10.0,no
+1243,Denmark,24,female,under 20k,0.8,2.3,0.9,online news,7.0,no
+1244,Denmark,72,female,under 20k,1.7,2.2,0.8,radio,,no
+1245,Denmark,49,female,under 20k,1.8,2.5,0.6,online news,7.0,no
+1246,Denmark,37,male,over 60k,1.8,1.4,0.8,TV,8.0,no
+1247,Denmark,47,male,under 20k,2.2,2.4,1.3,online news,8.0,yes
+1248,Denmark,41,male,40-60k,1.8,1.9,0.3,TV,8.0,no
+1249,Denmark,44,female,under 20k,3.0,2.1,1.8,online news,8.0,no
+1250,Denmark,27,male,over 60k,2.0,1.7,0.7,social media,7.0,no
+1251,Denmark,55,male,40-60k,2.3,2.3,0.4,social media,6.0,no
+1252,Denmark,51,male,40-60k,3.7,0.3,0.5,online news,9.0,no
+1253,Denmark,29,male,40-60k,,2.4,1.0,social media,8.0,no
+1254,Denmark,47,female,under 20k,3.2,1.2,1.3,print,8.0,no
+1255,Denmark,16,male,40-60k,1.7,3.8,1.1,social media,6.0,no
+1256,Denmark,55,female,40-60k,3.3,0.9,1.5,online news,9.0,no
+1257,Denmark,29,female,20-40k,1.8,1.9,0.6,social media,7.0,no
+1258,Denmark,70,male,20-40k,4.5,2.0,1.3,social media,8.0,no
+1259,Denmark,46,female,20-40k,2.9,1.8,1.9,online news,7.0,yes
+1260,Denmark,16,female,over 60k,0.0,3.3,1.2,online news,7.0,yes
+1261,Denmark,40,male,under 20k,2.5,1.7,2.0,TV,8.0,no
+1262,Denmark,16,male,under 20k,2.4,2.8,0.3,social media,7.0,no
+1263,Denmark,50,female,,2.9,2.0,0.5,TV,5.0,no
+1264,Denmark,64,male,20-40k,2.8,1.3,1.3,social media,10.0,yes
+1265,Denmark,52,female,40-60k,2.5,1.2,1.0,radio,10.0,no
+1266,Denmark,41,male,40-60k,2.2,1.9,1.2,online news,6.0,no
+1267,Denmark,51,female,20-40k,2.7,2.8,0.2,online news,8.0,no
+1268,Denmark,34,male,,1.6,1.9,1.1,TV,7.0,
+1269,Denmark,49,female,,,1.4,1.1,radio,7.0,no
+1270,Denmark,16,male,20-40k,2.7,1.9,1.2,social media,7.0,no
+1271,Denmark,36,male,over 60k,1.9,3.1,0.9,online news,,yes
+1272,Denmark,18,male,under 20k,0.8,3.6,0.7,TV,6.0,no
+1273,Denmark,45,male,under 20k,2.4,2.7,1.0,TV,7.0,no
+1274,Denmark,35,male,over 60k,2.9,1.7,1.2,social media,7.0,no
+1275,Denmark,42,female,40-60k,1.9,2.7,0.2,online news,,yes
+1276,Denmark,30,female,,1.7,1.7,1.3,TV,8.0,no
+1277,Denmark,49,male,under 20k,2.7,1.4,0.2,TV,8.0,no
+1278,Denmark,44,female,20-40k,2.4,2.0,0.9,online news,7.0,no
+1279,Denmark,40,male,20-40k,1.8,2.6,1.2,TV,6.0,no
+1280,Denmark,32,male,40-60k,2.7,3.0,0.9,social media,8.0,no
+1281,Denmark,46,female,,2.3,2.6,0.7,TV,9.0,
+1282,Denmark,41,male,under 20k,2.9,3.0,0.2,radio,6.0,yes
+1283,Denmark,16,female,under 20k,2.3,4.3,0.6,social media,,no
+1284,Denmark,44,male,,2.4,2.1,1.4,social media,6.0,no
+1285,Denmark,47,female,40-60k,3.3,1.8,1.0,social media,,no
+1286,Denmark,16,female,,1.3,2.9,0.0,social media,7.0,
+1287,Denmark,63,female,,3.1,2.3,1.7,print,9.0,
+1288,Denmark,16,male,40-60k,3.7,3.3,0.9,TV,8.0,no
+1289,Denmark,26,male,40-60k,3.2,3.3,0.4,online news,7.0,no
+1290,Denmark,42,male,20-40k,2.7,3.0,1.2,print,,no
+1291,Denmark,28,female,over 60k,2.3,3.2,0.0,social media,8.0,no
+1292,Denmark,58,male,20-40k,2.0,1.4,1.0,TV,9.0,no
+1293,Denmark,35,female,40-60k,1.6,0.7,0.8,TV,9.0,no
+1294,Denmark,64,female,40-60k,2.6,2.1,1.1,online news,,no
+1295,Denmark,26,male,20-40k,2.0,2.4,1.2,social media,8.0,no
+1296,Denmark,49,female,20-40k,1.8,1.9,0.6,radio,9.0,no
+1297,Denmark,76,female,,1.8,1.3,1.8,TV,7.0,no
+1298,Denmark,38,female,40-60k,1.4,2.3,0.6,TV,7.0,no
+1299,Denmark,36,female,20-40k,1.7,2.0,1.1,online news,9.0,no
+1300,Denmark,64,male,20-40k,1.5,2.4,1.3,TV,8.0,yes
+1301,Denmark,43,male,under 20k,2.3,0.8,1.4,radio,6.0,no
+1302,Denmark,61,female,under 20k,3.5,2.7,1.2,radio,7.0,yes
+1303,Denmark,58,male,40-60k,2.8,2.1,1.2,social media,,yes
+1304,Denmark,39,female,under 20k,2.2,1.2,0.9,social media,8.0,no
+1305,Denmark,60,male,20-40k,3.2,0.8,0.9,print,8.0,yes
+1306,Denmark,23,male,40-60k,3.4,1.7,0.5,social media,8.0,no
+1307,Denmark,61,female,40-60k,3.6,1.4,0.8,online news,,yes
+1308,Denmark,38,female,40-60k,2.7,2.5,0.7,online news,5.0,no
+1309,Denmark,45,female,20-40k,3.3,2.5,0.7,TV,,no
+1310,Denmark,16,male,40-60k,2.4,4.2,1.0,online news,7.0,no
+1311,Denmark,79,male,under 20k,3.2,2.4,1.5,online news,6.0,yes
+1312,Netherlands,46,male,20-40k,2.6,2.3,0.9,TV,6.0,no
+1313,Netherlands,33,female,under 20k,2.8,3.1,1.1,online news,6.0,yes
+1314,Netherlands,54,female,under 20k,2.1,1.5,1.1,online news,9.0,yes
+1315,Netherlands,31,male,under 20k,1.8,2.1,0.6,social media,7.0,no
+1316,Netherlands,53,other,under 20k,3.1,1.1,1.3,social media,,
+1317,Netherlands,16,female,20-40k,0.9,4.9,1.1,online news,6.0,no
+1318,Netherlands,44,male,over 60k,2.6,3.0,0.9,social media,7.0,no
+1319,Netherlands,32,female,over 60k,2.9,1.9,1.2,online news,7.0,no
+1320,Netherlands,64,male,,3.2,2.2,1.0,TV,6.0,
+1321,Netherlands,24,female,20-40k,,1.9,1.4,online news,7.0,yes
+1322,Netherlands,16,female,20-40k,0.0,3.2,0.1,social media,5.0,no
+1323,Netherlands,52,male,over 60k,2.8,3.0,1.1,social media,7.0,no
+1324,Netherlands,47,male,,2.0,2.1,0.7,TV,5.0,
+1325,Netherlands,32,male,over 60k,3.1,1.4,0.6,social media,,no
+1326,Netherlands,49,male,,4.4,1.9,1.0,online news,5.0,yes
+1327,Netherlands,25,female,40-60k,1.3,3.3,0.8,TV,,no
+1328,Netherlands,45,male,40-60k,2.3,1.3,0.7,social media,8.0,yes
+1329,Netherlands,16,female,40-60k,1.3,4.1,0.4,social media,7.0,no
+1330,Netherlands,44,female,20-40k,2.9,3.3,1.2,social media,7.0,no
+1331,Netherlands,16,male,over 60k,0.8,1.7,0.9,social media,7.0,no
+1332,Netherlands,45,female,40-60k,2.6,1.7,0.3,TV,,yes
+1333,Netherlands,40,female,,1.9,2.2,0.9,TV,7.0,
+1334,Netherlands,31,male,40-60k,2.0,4.0,1.4,TV,5.0,no
+1335,Netherlands,44,female,over 60k,2.7,3.3,1.5,online news,7.0,no
+1336,Netherlands,29,male,40-60k,4.2,1.7,1.1,print,7.0,no
+1337,Netherlands,37,male,under 20k,0.5,1.9,1.3,online news,7.0,no
+1338,Netherlands,42,male,over 60k,1.9,2.9,0.7,radio,7.0,no
+1339,Netherlands,22,male,under 20k,2.2,3.9,0.4,social media,5.0,yes
+1340,Netherlands,28,male,under 20k,2.0,2.7,1.0,online news,5.0,no
+1341,Netherlands,39,female,40-60k,2.3,1.6,1.4,social media,7.0,no
+1342,Netherlands,48,female,,,2.6,1.5,online news,7.0,
+1343,Netherlands,23,male,,1.5,2.5,0.5,online news,6.0,
+1344,Netherlands,36,male,,2.5,2.2,1.0,social media,9.0,
+1345,Netherlands,52,female,under 20k,2.0,3.1,1.0,online news,,no
+1346,Netherlands,44,male,under 20k,2.1,1.8,1.2,print,6.0,no
+1347,Netherlands,31,male,40-60k,1.4,3.1,1.5,print,,no
+1348,Netherlands,25,female,,2.7,2.3,1.2,online news,6.0,
+1349,Netherlands,28,female,20-40k,3.1,2.7,1.4,social media,7.0,yes
+1350,Netherlands,28,male,under 20k,,1.7,0.9,social media,8.0,no
+1351,Netherlands,47,female,under 20k,2.9,1.7,1.2,social media,6.0,yes
+1352,Netherlands,59,female,20-40k,3.5,2.9,1.9,TV,6.0,no
+1353,Netherlands,35,male,40-60k,3.0,2.5,0.8,social media,8.0,yes
+1354,Netherlands,38,female,under 20k,1.6,1.8,1.9,social media,7.0,no
+1355,Netherlands,49,female,20-40k,2.1,2.7,1.1,radio,5.0,no
+1356,Netherlands,51,female,20-40k,2.8,2.9,1.3,TV,,yes
+1357,Netherlands,26,female,40-60k,1.3,1.6,1.0,social media,8.0,no
+1358,Netherlands,20,male,,1.1,2.0,0.7,social media,6.0,
+1359,Netherlands,56,male,under 20k,2.4,1.9,1.5,online news,7.0,yes
+1360,Netherlands,45,female,under 20k,2.1,2.9,1.0,online news,6.0,no
+1361,Netherlands,21,female,20-40k,3.8,3.7,1.1,online news,7.0,yes
+1362,Netherlands,32,female,40-60k,2.1,1.7,1.1,social media,6.0,no
+1363,Netherlands,33,female,under 20k,,2.7,1.1,TV,,no
+1364,Netherlands,44,male,20-40k,,2.5,0.6,radio,5.0,no
+1365,Netherlands,19,male,20-40k,1.4,3.7,0.8,social media,5.0,no
+1366,Netherlands,24,male,20-40k,3.4,3.0,0.5,social media,6.0,no
+1367,Netherlands,57,male,,2.8,2.0,0.9,social media,5.0,no
+1368,Netherlands,35,male,40-60k,2.9,3.4,0.6,online news,7.0,no
+1369,Netherlands,34,male,under 20k,2.0,1.5,1.0,radio,7.0,yes
+1370,Netherlands,40,male,20-40k,2.5,1.9,1.1,print,9.0,no
+1371,Netherlands,48,female,20-40k,1.7,2.7,0.8,online news,6.0,no
+1372,Netherlands,53,male,40-60k,2.2,2.1,1.5,social media,7.0,yes
+1373,Netherlands,54,male,20-40k,3.3,2.4,1.1,TV,6.0,yes
+1374,Netherlands,35,male,40-60k,2.0,2.2,0.8,online news,7.0,yes
+1375,Netherlands,66,female,20-40k,1.9,2.7,1.1,social media,7.0,no
+1376,Netherlands,47,male,under 20k,1.9,2.8,0.8,online news,,no
+1377,Netherlands,43,male,20-40k,0.5,2.2,1.0,social media,6.0,no
+1378,Netherlands,45,female,under 20k,2.3,2.3,0.3,TV,5.0,no
+1379,Netherlands,36,female,40-60k,2.0,1.5,1.0,online news,7.0,no
+1380,Netherlands,40,female,20-40k,1.0,1.8,0.7,print,6.0,no
+1381,Netherlands,50,female,,,1.6,0.3,print,7.0,
+1382,Netherlands,18,female,,2.4,2.2,1.3,online news,7.0,no
+1383,Netherlands,16,female,over 60k,1.4,3.2,0.2,social media,6.0,no
+1384,Netherlands,41,female,40-60k,3.4,2.1,0.5,TV,10.0,no
+1385,Netherlands,52,male,under 20k,4.0,1.1,0.9,TV,8.0,no
+1386,Netherlands,36,female,under 20k,4.1,3.5,0.9,online news,6.0,no
+1387,Netherlands,55,female,40-60k,2.8,1.8,0.4,TV,8.0,no
+1388,Netherlands,44,female,20-40k,2.3,1.5,1.2,online news,7.0,no
+1389,Netherlands,71,female,20-40k,1.6,3.2,1.8,online news,7.0,no
+1390,Portugal,21,female,over 60k,,4.2,0.6,online news,5.0,no
+1391,Portugal,60,female,under 20k,4.0,3.7,1.4,TV,,no
+1392,Portugal,36,male,40-60k,3.6,3.3,0.8,social media,6.0,no
+1393,Portugal,60,male,20-40k,1.9,3.5,1.2,TV,6.0,no
+1394,Portugal,48,female,20-40k,2.1,2.1,1.4,online news,6.0,no
+1395,Portugal,50,male,20-40k,2.7,2.6,0.9,online news,,no
+1396,Portugal,17,male,20-40k,3.1,3.9,0.6,social media,6.0,no
+1397,Portugal,35,male,40-60k,1.5,3.7,0.9,radio,5.0,yes
+1398,Portugal,65,female,40-60k,2.5,3.8,1.4,social media,4.0,no
+1399,Portugal,37,female,,2.7,3.0,1.1,social media,4.0,
+1400,Portugal,61,female,20-40k,3.7,4.3,0.6,online news,5.0,yes
+1401,Portugal,39,female,20-40k,0.7,2.7,1.0,TV,6.0,yes
+1402,Portugal,42,male,20-40k,2.7,3.1,1.7,online news,4.0,no
+1403,Portugal,61,female,20-40k,3.4,4.4,1.0,social media,7.0,yes
+1404,Portugal,55,female,,1.6,4.8,1.6,social media,4.0,
+1405,Portugal,40,female,over 60k,1.7,3.6,0.7,online news,,no
+1406,Portugal,58,male,40-60k,3.3,2.6,1.0,online news,6.0,no
+1407,Portugal,71,female,,2.5,3.1,1.7,TV,6.0,
+1408,Portugal,38,male,20-40k,2.1,2.2,1.4,print,,no
+1409,Portugal,31,male,20-40k,0.8,3.1,1.4,print,5.0,no
+1410,Portugal,53,female,,3.4,3.6,1.2,social media,5.0,
+1411,Portugal,47,female,,2.9,2.8,0.9,TV,,
+1412,Portugal,48,female,20-40k,3.2,3.5,0.2,social media,,no
+1413,Portugal,42,male,40-60k,3.0,2.7,1.0,print,5.0,no
+1414,Portugal,79,male,40-60k,4.2,4.0,1.3,social media,3.0,yes
+1415,Portugal,38,female,20-40k,1.2,2.4,0.9,TV,5.0,yes
+1416,Portugal,38,female,20-40k,2.2,3.5,0.8,online news,5.0,yes
+1417,Portugal,28,male,over 60k,2.4,4.0,1.0,online news,5.0,no
+1418,Portugal,39,male,20-40k,2.6,4.1,1.1,online news,5.0,no
+1419,Portugal,35,female,20-40k,1.8,3.1,0.7,TV,7.0,no
+1420,Portugal,16,male,20-40k,4.2,4.5,0.5,social media,2.0,yes
+1421,Portugal,31,male,over 60k,2.8,3.2,0.7,TV,,no
+1422,Portugal,46,male,20-40k,2.2,1.8,1.3,online news,6.0,yes
+1423,Portugal,47,female,40-60k,3.3,3.7,0.8,social media,3.0,no
+1424,Portugal,27,female,under 20k,1.9,3.8,0.0,social media,5.0,yes
+1425,Portugal,22,male,40-60k,1.9,3.5,1.4,social media,4.0,no
+1426,Portugal,18,male,under 20k,0.2,3.8,0.3,social media,5.0,
+1427,Portugal,45,female,under 20k,0.2,3.8,0.6,social media,,no
+1428,Portugal,33,male,40-60k,,3.0,0.5,TV,,no
+1429,Portugal,59,female,40-60k,2.8,3.1,1.0,TV,,yes
+1430,Portugal,26,female,40-60k,1.8,5.1,0.5,online news,,no
+1431,Portugal,38,male,20-40k,2.3,2.1,1.0,online news,8.0,no
+1432,Portugal,53,female,over 60k,3.3,2.5,0.7,social media,4.0,yes
+1433,Portugal,41,male,under 20k,2.8,2.8,0.4,TV,6.0,no
+1434,Portugal,47,female,20-40k,2.9,4.3,1.2,TV,4.0,yes
+1435,Portugal,47,female,under 20k,2.9,2.3,0.4,TV,,yes
+1436,Portugal,29,female,40-60k,,3.4,0.6,social media,,
+1437,Portugal,25,female,,0.5,4.0,0.2,print,6.0,
+1438,Portugal,18,female,40-60k,0.3,3.8,1.7,social media,3.0,no
+1439,Portugal,77,female,40-60k,2.3,2.8,0.4,social media,5.0,yes
+1440,Portugal,45,male,under 20k,1.6,2.9,1.2,online news,,yes
+1441,Portugal,29,female,40-60k,2.7,2.7,0.9,online news,6.0,no
+1442,Portugal,42,female,over 60k,2.6,4.1,0.8,online news,4.0,no
+1443,Portugal,16,female,20-40k,1.6,4.0,0.4,social media,7.0,no
+1444,Portugal,16,female,,2.6,3.5,0.4,TV,,
+1445,Portugal,37,male,under 20k,1.4,2.5,0.5,TV,,no
+1446,Portugal,66,female,under 20k,3.4,2.6,1.3,online news,5.0,no
+1447,Portugal,35,female,40-60k,1.5,2.1,0.6,online news,5.0,no
+1448,Portugal,25,male,,1.3,3.4,1.0,social media,4.0,
+1449,Portugal,44,male,,2.8,3.7,1.8,radio,6.0,
+1450,Portugal,58,female,20-40k,3.2,3.4,1.4,radio,7.0,no
+1451,Portugal,36,female,20-40k,2.5,3.1,1.0,radio,4.0,no
+1452,Portugal,50,male,,2.9,3.0,0.5,TV,5.0,
+1453,Portugal,73,male,,2.8,3.1,1.2,social media,5.0,
+1454,Portugal,38,female,20-40k,1.8,3.0,0.8,online news,5.0,no
+1455,Portugal,49,female,over 60k,3.4,3.4,1.3,social media,5.0,no
+1456,Portugal,31,female,20-40k,2.5,3.4,0.5,TV,5.0,no
+1457,Portugal,38,male,40-60k,1.2,4.1,0.6,online news,,no
+1458,Portugal,53,male,20-40k,2.5,3.2,1.4,TV,5.0,no
+1459,Portugal,75,male,20-40k,2.8,3.1,0.8,TV,6.0,no
+1460,Portugal,37,female,40-60k,2.5,3.5,0.6,online news,7.0,no
+1461,Portugal,63,female,40-60k,3.6,3.1,1.4,online news,,no
+1462,Portugal,55,female,40-60k,2.2,2.6,0.8,print,6.0,yes
+1463,Portugal,56,female,20-40k,2.7,2.9,0.7,social media,6.0,no
+1464,Portugal,31,male,over 60k,2.3,4.3,0.4,online news,5.0,no
+1465,Portugal,35,female,over 60k,0.6,4.1,0.9,online news,6.0,yes
+1466,Portugal,46,female,,2.0,2.5,0.7,radio,6.0,
+1467,Portugal,21,male,40-60k,,4.2,0.6,TV,5.0,no
+1468,Italy,56,female,under 20k,2.9,2.9,0.8,online news,,no
+1469,Italy,29,female,over 60k,2.1,3.6,0.2,social media,7.0,no
+1470,Italy,30,male,40-60k,3.0,4.2,1.1,social media,5.0,no
+1471,Italy,16,female,over 60k,2.0,2.0,0.3,online news,4.0,yes
+1472,Italy,41,female,40-60k,3.4,3.1,0.8,TV,5.0,no
+1473,Italy,41,male,,3.5,3.5,1.1,online news,6.0,
+1474,Italy,23,female,over 60k,2.3,2.6,0.9,TV,7.0,no
+1475,Italy,26,male,20-40k,3.1,3.9,1.0,social media,5.0,yes
+1476,Italy,28,female,40-60k,1.4,2.1,0.9,online news,6.0,yes
+1477,Italy,36,male,20-40k,2.7,2.2,0.1,online news,5.0,yes
+1478,Italy,35,female,under 20k,3.3,2.7,0.7,TV,6.0,no
+1479,Italy,58,male,under 20k,1.8,2.4,0.6,TV,6.0,yes
+1480,Italy,37,female,,1.4,2.2,1.4,radio,3.0,
+1481,Italy,30,female,20-40k,2.0,2.3,1.0,online news,5.0,
+1482,Italy,47,male,20-40k,2.0,2.3,1.6,online news,,no
+1483,Italy,41,female,under 20k,2.7,2.5,1.7,TV,6.0,no
+1484,Italy,46,female,40-60k,2.6,2.7,0.9,online news,6.0,no
+1485,Italy,42,male,over 60k,2.6,1.5,0.5,online news,6.0,no
+1486,Italy,68,female,,4.6,1.7,1.6,online news,6.0,
+1487,Italy,37,male,under 20k,3.3,1.1,0.8,TV,6.0,no
+1488,Italy,47,male,under 20k,2.4,2.9,0.5,TV,5.0,no
+1489,Italy,35,other,40-60k,,2.2,1.0,social media,6.0,yes
+1490,Italy,47,female,20-40k,2.5,2.4,1.3,TV,4.0,no
+1491,Italy,16,male,20-40k,1.6,2.4,0.5,TV,4.0,yes
+1492,Italy,51,female,20-40k,2.5,2.2,1.3,social media,4.0,no
+1493,Italy,27,female,20-40k,2.2,2.1,0.8,online news,5.0,no
+1494,Italy,30,female,,2.0,3.8,1.3,TV,4.0,
+1495,Italy,38,male,,1.7,3.0,0.8,social media,,no
+1496,Italy,58,female,40-60k,1.7,3.0,0.8,TV,,no
+1497,Italy,18,female,,0.3,3.3,0.9,social media,5.0,
+1498,Italy,20,female,20-40k,2.1,2.6,0.0,online news,,no
+1499,Italy,41,male,under 20k,2.4,3.5,0.6,TV,4.0,no
+1500,Italy,31,male,under 20k,1.6,2.5,0.9,TV,6.0,no
+1501,Italy,49,female,40-60k,2.4,2.5,2.0,online news,5.0,no
+1502,Italy,30,male,40-60k,2.3,3.1,0.6,TV,6.0,no
+1503,Italy,44,male,under 20k,1.9,2.5,1.6,online news,,no
+1504,Italy,29,male,,2.4,2.1,0.2,print,5.0,
+1505,Italy,57,female,,3.6,1.6,0.8,online news,8.0,
+1506,Italy,37,male,over 60k,3.5,2.4,0.6,online news,5.0,no
+1507,Italy,16,female,20-40k,2.0,2.7,0.6,social media,5.0,no
+1508,Italy,30,female,under 20k,2.9,3.8,0.9,online news,,yes
+1509,Italy,45,male,over 60k,3.2,1.7,1.4,online news,6.0,yes
+1510,Italy,16,male,40-60k,1.8,4.3,0.3,social media,5.0,no
+1511,Italy,65,female,20-40k,3.6,2.8,1.5,radio,,no
+1512,Italy,45,male,under 20k,3.0,2.3,1.0,social media,2.0,no
+1513,Italy,47,female,40-60k,4.1,2.4,1.1,radio,6.0,yes
+1514,Italy,33,male,20-40k,1.9,3.1,1.2,online news,5.0,no
+1515,Italy,63,female,under 20k,2.7,1.3,1.5,online news,8.0,no
+1516,Italy,52,male,40-60k,2.4,3.1,1.2,online news,6.0,yes
+1517,Italy,49,female,40-60k,,2.4,0.6,online news,7.0,no
+1518,Italy,34,male,40-60k,1.7,2.1,1.5,radio,3.0,yes
+1519,Italy,40,female,under 20k,,2.5,1.6,online news,6.0,no
+1520,Italy,16,male,20-40k,0.9,2.4,0.2,social media,6.0,no
+1521,Italy,31,male,over 60k,1.6,3.8,1.2,TV,,no
+1522,Italy,43,female,20-40k,1.6,2.3,1.3,TV,6.0,no
+1523,Italy,42,other,20-40k,1.6,2.1,0.3,TV,5.0,no
+1524,Italy,60,female,20-40k,4.7,3.1,0.8,TV,2.0,no
+1525,Italy,60,female,40-60k,3.7,2.8,0.7,radio,4.0,yes
+1526,Italy,31,male,,1.0,2.2,0.2,TV,5.0,no
+1527,Italy,29,male,20-40k,2.4,2.7,1.1,social media,5.0,no
+1528,Italy,16,female,under 20k,2.3,3.6,0.9,social media,5.0,no
+1529,Italy,32,female,40-60k,1.4,3.4,0.6,online news,6.0,yes
+1530,Italy,16,female,20-40k,1.6,2.8,0.5,social media,,yes
+1531,Italy,36,female,under 20k,2.0,2.4,1.8,TV,,no
+1532,Italy,53,male,20-40k,2.5,2.5,1.0,radio,5.0,no
+1533,Italy,22,male,20-40k,0.3,2.4,1.1,social media,6.0,no
+1534,Italy,43,male,under 20k,1.6,3.1,0.7,online news,5.0,no
+1535,Italy,46,female,over 60k,3.5,1.8,0.4,online news,7.0,no
+1536,Italy,50,male,over 60k,3.3,2.3,0.7,TV,,no
+1537,Italy,28,male,under 20k,2.1,3.1,0.2,TV,4.0,yes
+1538,Italy,16,male,40-60k,1.6,4.0,1.1,TV,,no
+1539,Italy,34,female,under 20k,2.7,2.6,0.8,online news,6.0,no
+1540,Italy,32,female,under 20k,2.2,2.6,0.7,TV,5.0,no
+1541,Italy,38,male,20-40k,1.1,2.9,0.7,print,,no
+1542,Italy,34,female,over 60k,3.4,2.4,0.1,online news,,yes
+1543,Italy,29,female,20-40k,1.2,1.4,1.3,social media,7.0,yes
+1544,Italy,40,female,under 20k,3.2,3.1,1.2,TV,,no
+1545,Italy,16,female,over 60k,2.8,3.3,0.1,radio,,no
+1546,Ukraine,50,female,under 20k,1.9,3.0,1.0,radio,5.0,no
+1547,Ukraine,43,male,20-40k,1.4,1.7,0.5,online news,,yes
+1548,Ukraine,32,male,,1.6,2.9,0.7,TV,6.0,
+1549,Ukraine,58,female,20-40k,1.6,3.0,0.6,online news,5.0,
+1550,Ukraine,45,female,,0.7,2.3,1.0,TV,6.0,
+1551,Ukraine,26,female,40-60k,,2.7,0.4,online news,6.0,no
+1552,Ukraine,16,female,20-40k,1.9,3.5,1.0,social media,,no
+1553,Ukraine,57,female,20-40k,3.2,3.4,1.7,online news,6.0,no
+1554,Ukraine,35,female,under 20k,2.5,2.1,0.2,social media,7.0,yes
+1555,Ukraine,29,female,20-40k,3.8,2.8,1.3,online news,6.0,no
+1556,Ukraine,39,female,40-60k,3.4,1.3,1.7,online news,7.0,no
+1557,Ukraine,50,female,over 60k,2.3,2.8,0.7,online news,6.0,no
+1558,Ukraine,38,male,40-60k,3.2,1.6,0.0,TV,6.0,no
+1559,Ukraine,30,female,under 20k,2.3,3.3,0.1,online news,7.0,no
+1560,Ukraine,33,male,,0.8,3.3,0.8,social media,5.0,no
+1561,Ukraine,52,female,20-40k,2.0,2.6,0.9,TV,,no
+1562,Ukraine,16,male,20-40k,0.9,3.8,0.8,social media,6.0,no
+1563,Ukraine,46,male,20-40k,1.7,2.3,0.8,TV,5.0,no
+1564,Ukraine,25,female,under 20k,0.0,2.8,0.7,online news,,yes
+1565,Ukraine,59,male,over 60k,3.9,2.6,0.5,online news,,yes
+1566,Ukraine,28,male,20-40k,0.4,3.2,0.0,social media,7.0,no
+1567,Ukraine,56,male,20-40k,3.0,2.9,1.5,social media,5.0,no
+1568,Ukraine,42,male,20-40k,1.5,2.6,1.2,social media,5.0,no
+1569,Ukraine,54,female,20-40k,3.9,2.1,0.8,print,6.0,no
+1570,Ukraine,47,female,under 20k,3.4,2.6,0.7,social media,5.0,no
+1571,Ukraine,60,female,20-40k,2.3,1.9,0.5,radio,8.0,no
+1572,Ukraine,48,female,under 20k,3.6,2.4,1.9,social media,,no
+1573,Ukraine,38,female,,1.6,2.6,1.2,radio,5.0,
+1574,Ukraine,41,female,20-40k,3.9,3.2,1.1,social media,6.0,yes
+1575,Ukraine,19,female,20-40k,1.7,3.2,0.5,TV,7.0,yes
+1576,Ukraine,26,male,under 20k,2.0,3.1,0.2,social media,5.0,no
+1577,Ukraine,48,male,over 60k,,2.5,0.8,radio,7.0,no
+1578,Ukraine,41,female,40-60k,,1.7,0.9,TV,6.0,no
+1579,Ukraine,48,male,40-60k,0.7,2.2,1.0,social media,,no
+1580,Ukraine,16,other,,2.6,2.8,1.6,TV,,yes
+1581,Ukraine,38,male,,3.6,4.1,0.2,online news,4.0,
+1582,Ukraine,46,female,20-40k,,1.8,1.2,TV,,yes
+1583,Ukraine,45,female,under 20k,,3.0,1.3,radio,6.0,yes
+1584,Ukraine,33,female,20-40k,1.1,2.0,0.2,TV,6.0,no
+1585,Ukraine,46,male,under 20k,2.1,3.1,0.8,online news,6.0,no
+1586,Ukraine,50,male,,0.9,3.2,1.5,online news,6.0,no
+1587,Ukraine,46,male,40-60k,3.4,2.4,0.3,online news,5.0,yes
+1588,Ukraine,46,female,40-60k,2.4,2.1,1.3,TV,5.0,yes
+1589,Ukraine,79,male,under 20k,3.9,3.3,0.9,TV,5.0,yes
+1590,Ukraine,22,female,under 20k,0.7,3.6,0.1,social media,5.0,no
+1591,Ukraine,26,female,,0.6,3.0,0.0,social media,6.0,no
+1592,Ukraine,49,female,40-60k,1.0,2.1,1.0,TV,6.0,
+1593,Ukraine,26,female,40-60k,2.2,3.7,0.9,social media,4.0,yes
+1594,Ukraine,27,male,,4.2,3.2,0.8,TV,7.0,
+1595,Ukraine,29,female,40-60k,3.0,2.3,1.3,social media,7.0,no
+1596,Ukraine,51,male,40-60k,1.8,1.9,1.2,social media,6.0,no
+1597,Ukraine,16,male,under 20k,2.3,3.7,0.0,social media,4.0,no
+1598,Ukraine,28,male,under 20k,2.5,3.3,0.9,social media,6.0,yes
+1599,Ukraine,52,female,,3.0,3.2,1.5,social media,6.0,
+1600,Ukraine,30,male,20-40k,3.4,2.0,1.0,online news,6.0,no
+1601,Ukraine,38,female,over 60k,3.1,2.6,0.1,radio,6.0,no
+1602,Ukraine,69,male,20-40k,3.5,2.4,2.0,radio,5.0,no
+1603,Ukraine,45,female,over 60k,2.0,2.6,1.0,TV,7.0,yes
+1604,Ukraine,37,female,20-40k,3.4,3.3,0.6,online news,5.0,no
+1605,Ukraine,37,male,20-40k,2.1,1.9,1.5,online news,5.0,no
+1606,Ukraine,50,male,20-40k,3.8,2.9,0.3,TV,7.0,no
+1607,Ukraine,44,male,40-60k,1.1,3.4,1.0,TV,4.0,no
+1608,Ukraine,54,female,,1.3,3.6,1.3,online news,6.0,
+1609,Ukraine,38,female,,3.0,2.6,0.6,social media,5.0,
+1610,Ukraine,45,female,,3.5,1.8,0.6,online news,6.0,
+1611,Ukraine,40,male,over 60k,3.1,1.7,0.9,TV,8.0,no
+1612,Ukraine,43,female,20-40k,1.7,2.5,1.6,TV,5.0,no
+1613,Ukraine,50,female,,3.2,3.2,0.9,TV,,
+1614,Ukraine,63,female,20-40k,3.9,2.9,1.0,TV,5.0,no
+1615,Ukraine,27,female,40-60k,2.8,3.4,0.4,online news,6.0,no
+1616,Ukraine,52,female,40-60k,2.1,3.9,0.6,TV,4.0,no
+1617,Ukraine,52,female,20-40k,2.2,2.8,1.3,social media,6.0,yes
+1618,Ukraine,29,male,40-60k,1.2,3.0,0.6,social media,4.0,no
+1619,Ukraine,17,female,40-60k,1.3,3.1,0.5,social media,5.0,no
+1620,Ukraine,50,male,under 20k,3.5,2.0,0.9,online news,5.0,yes
+1621,Ukraine,30,male,40-60k,2.1,3.3,0.9,radio,6.0,no
+1622,Ukraine,22,male,20-40k,2.2,3.3,1.0,online news,4.0,no
+1623,Ukraine,46,male,,3.2,1.9,0.9,online news,7.0,no

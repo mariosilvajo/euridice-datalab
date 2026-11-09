@@ -1,0 +1,52 @@
+---
+title: "3 · Capstone: audit and document a model"
+description: Build a model you can justify, audit it, write its model card - and export your DataLab portfolio.
+---
+
+import NotebookLab from '../../../../components/NotebookLab.astro';
+
+**The brief:** a university wants a model to help decide which applicants
+receive a funded study place. You are the analyst. Build the best model you
+can *justify*, audit it with the ethics-lab measurements, and write the
+**model card** that a regulator, a journalist or an applicant would read.
+
+You make the decisions: which features the model may use (including whether
+to give it `has_own_laptop`), which kind of model, and whether it should be
+deployed at all. There is no single right answer — what counts is that your
+decisions follow from your evidence, and that your documentation is honest
+about what the model gets wrong.
+
+The last step **exports your portfolio**: your model card plus every
+written judgment from the DataLab's ethics labs, as one file.
+
+<NotebookLab path="capstone.ipynb" height="760px" />
+
+## What a strong model card shows
+
+- You know how much your model beats the baseline — and say so plainly.
+- The audit is reported as found, including what looks bad.
+- The limitations name **who** the model serves poorly, and why.
+- The recommendation follows from the evidence above it.
+
+## Your portfolio
+
+| Saved from | What it holds |
+|---|---|
+| Track 1 · Seeing what's missing | who disappears when you clean data |
+| Track 2 · Explore a real dataset | the headline you would publish |
+| Track 2 · Graded exercise | how to report a very small group |
+| Track 3 · First classifier | deploy or not? |
+| Track 3 · Choosing a model | accuracy or fairness? |
+| Track 3 · Capstone | your model card |
+
+Run `show_portfolio()` in any notebook to see what you have saved, and
+`export_portfolio()` to download it. The file opens in any browser; use
+**Print → Save as PDF** if you need a PDF.
+
+:::caution
+Your portfolio is stored in **this browser**. Clearing the site's data, or
+switching browser or device, means starting again — download it whenever
+you add something.
+:::
+
+To have it count, see [Earning a microcredential](/credentials/).
